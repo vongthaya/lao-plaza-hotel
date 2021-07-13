@@ -1,0 +1,143 @@
+.login-form {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 80px;
+}
+
+.login-form form {
+  width: 100%;
+}
+
+.login-form .form-group {
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.login-form .form-control {
+  border-radius: 0;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.logo img {
+  width: 200px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-bottom: 40px;
+}
+
+.login-box {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.main-btn {
+  background-color: #76232F;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 0;
+  margin-top: 25px;
+}
+
+.bg-hotel {
+  background: url("../img/1.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-hotel::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.line {
+  height: 1px;
+  background-color: #fff;
+  margin: 30px 0;
+}
+
+.hotel-text {
+  z-index: 1000;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  width: 75%;
+}
+
+.hotel-text h3 {
+  font-size: 50px;
+}
+
+.hotel-text h4 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1366px) {
+  .login-form {
+    padding: 0 40px;
+  }
+  .hotel-text {
+    width: 68%;
+  }
+  .hotel-text h3 {
+    font-size: 45px;
+  }
+  .hotel-text h4 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-hotel {
+    display: none;
+  }
+  .login-form {
+    padding-left: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
